@@ -11,6 +11,11 @@ public class Main {
 	    doTask2();
 	    doTask3a();
 	    doTask3b();
+
+	    //Задание Макса
+
+        Task task = new Task("20");
+        task.createRandomArray();
     }
     public static void doTask1(){
         // Массив предназначен для хранения значений ростов двенадцати человек.
